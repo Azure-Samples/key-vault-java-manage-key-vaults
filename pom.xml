@@ -3,18 +3,18 @@
     <groupId>com.microsoft.azure</groupId>
     <artifactId>key-vault-java-manage-key-vaults</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ManageKeyVault</name>
+    <name>ManageKeyVault.java</name>
     <description></description>
     <url>https://github.com/Azure/key-vault-java-manage-key-vaults</url>
     <dependencies>
         <dependency>
             <groupId>com.microsoft.azure</groupId>
             <artifactId>azure</artifactId>
-            <version>1.0.0-beta4.1</version>
+            <version>1.0.0-beta5</version>
         </dependency>
     </dependencies>
     <build>
-
+        <sourceDirectory>src</sourceDirectory>
         <resources>
             <resource>
                 <directory>resources</directory>
@@ -26,7 +26,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.4.0</version>
                 <configuration>
-                    <mainClass>com.microsoft.azure.management.keyvault.samples.ManageKeyVault</mainClass>
+                    <mainClass>com.microsoft.azure.management.keyvault.samples.ManageKeyVault.java</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -54,7 +54,7 @@
                             </descriptorRefs>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.microsoft.azure.management.keyvault.samples.ManageKeyVault</mainClass>
+                                    <mainClass>com.microsoft.azure.management.keyvault.samples.ManageKeyVault.java</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
