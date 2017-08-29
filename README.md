@@ -4,7 +4,7 @@ platforms: java
 author: jianghaolu
 ---
 
-#Getting Started with Keyvault - Manage Key Vault - in Java #
+## Getting Started with Keyvault - Manage Key Vault - in Java ##
 
 
   Azure Key Vault sample for managing key vaults -
@@ -32,7 +32,7 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 
 ## More information ##
 
-[http://azure.com/java] (http://azure.com/java)
+[http://azure.com/java](http://azure.com/java)
 
 If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
 
