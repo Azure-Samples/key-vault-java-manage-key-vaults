@@ -1,5 +1,5 @@
 ---
-services: Keyvault
+services: key-vault
 platforms: java
 author: jianghaolu
 ---
