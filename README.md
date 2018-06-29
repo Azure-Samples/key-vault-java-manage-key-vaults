@@ -17,7 +17,12 @@ author: jianghaolu
    - List key vaults
    - Delete a key vault.
  
-
+## Prerequisites ##
+- Java 1.7+
+- Azure service principal registration (through
+[Azure CLI](http://azure.microsoft.com/documentation/articles/resource-group-authenticate-service-principal-cli/),
+[PowerShell](http://azure.microsoft.com/documentation/articles/resource-group-authenticate-service-principal/)
+or [Azure Portal](http://azure.microsoft.com/documentation/articles/resource-group-create-service-principal-portal/)).
 ## Running this Sample ##
 
 To run this sample:
