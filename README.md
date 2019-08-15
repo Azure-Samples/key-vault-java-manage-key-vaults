@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: Keyvault
-platforms: java
-author: yaohaizh
+extensions:
+- services: Keyvault
+- platforms: java
 ---
 
-## Getting Started with Keyvault - Manage Key Vault - in Java ##
+# Getting Started with Keyvault - Manage Key Vault - in Java #
 
 
   Azure Key Vault sample for managing key vaults -
