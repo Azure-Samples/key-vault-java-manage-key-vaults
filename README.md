@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: Keyvault
-- platforms: java
+  services: Keyvault
+  platforms: java
 ---
 
 # Getting Started with Keyvault - Manage Key Vault - in Java #
